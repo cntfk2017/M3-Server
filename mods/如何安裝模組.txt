@@ -1,0 +1,30 @@
+#####如何安裝模組包#####
+
+0.執行乾淨1.7.10版本
+1.安裝forge-1.7.10-10.13.4.1614-1.7.10-installer-win.exe
+2.搜尋並輸入%appdata%
+3.進入.minecraft
+4.進入mods資料夾
+5.如果資料夾不存在，創建一個在.minecraft
+6.將壓縮包中裡的jar檔案放進mods資料夾
+7.玩
+
+
+#####How to install Mods#####
+
+0.Play Minecraft 1.7.10
+1.install forge-1.7.10-10.13.4.1614-1.7.10-installer-win.exe
+2.Go to %appdata%.
+3.Go to .minecraft
+4.Go to mods folder.
+5.If the “mods” folder does not exist you can create one to .minecraft
+6.Drag and drop the mod jar file into it.
+7.Play
+
+
+
+
+
+
+
+

@@ -1,0 +1,3 @@
+@echo off
+java -Xmx3072m -Xms1536m -XX:PermSize=256m -server -XX:+DisableExplicitGC -XX:+UseConcMarkSweepGC -XX:+UseParNewGC -XX:+UseNUMA -XX:MaxGCPauseMillis=50 -XX:+UseAdaptiveGCBoundary -XX:-UseGCOverheadLimit -XX:SurvivorRatio=8 -XX:TargetSurvivorRatio=90 -XX:MaxTenuringThreshold=15 -XX:UseSSE=3 -XX:+UseFastAccessorMethods -XX:+UseCompressedOops -XX:+OptimizeStringConcat -XX:+AggressiveOpts -XX:ParallelGCThreads=4 -Xincgc -Xnoclassgc -XX:LargePageSizeInBytes=4m -XX:GCPauseIntervalMillis=150 -XX:ReservedCodeCacheSize=2048m -XX:+UseCodeCacheFlushing -XX:SoftRefLRUPolicyMSPerMB=10000 -XX:ParallelGCThreads=10 -XX:-UseParallelGC -jar forge-1.7.10-10.13.4.1614-1.7.10-universal.jar
+pause
